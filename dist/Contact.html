@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png" type="image/png">
+<title>Contact</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+<div class="page">
+    <header>
+        <nav-sidebar></nav-sidebar>
+    </header>
+
+<main>
+    <section>
+<h1>My Contact</h1>
+    <Address>
+        <li> You can contact me through my Email:<a href=”mailto:vajywjsiab@gmail.com”> vajywjsiab@gmail.com </a></li>
+        <li> My Phone Number: <a href=”tel:+17155715751”> <span class="hover-highlight" data-hover="Call me!">(715)-571-5751</span></a></li>
+    </Address>
+    <fieldset id="businessinfo">
+        <legend>Your Infomration</legend>
+        <section id="contact">
+            <h2>Contact Me</h2>
+                <section>
+                    <h3>Attach a photo (optional)</h3>
+                    <camera-capture input-name="photoDataUrl" shutter-src="snap.mp3"></camera-capture>
+                </section>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="(715) 571-5751" />
+
+
+                <p id="formSuccess" style="color:#32CD32;font-weight:bold;display:none;"></p>
+                <p id="formError"   style="color:#ffd700;font-weight:bold;display:none;"></p>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </section>
+</main>
+</div>
+<script defer src="bundle.9c4c8ffb72a465e15729.js"></script></body>
+
+<footer>
+    <Address>
+        Ywj Siab Vaj &#9830; 2012 Weston Avenue &#9830; Schofield, WI 54476
+    </Address>
+</footer>
+</html>
