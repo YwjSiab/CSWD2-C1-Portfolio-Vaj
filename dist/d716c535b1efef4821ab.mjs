@@ -1,1 +1,0 @@
-import e from"globals";import r from"@eslint/js";export default[{files:["**/*.js"],languageOptions:{sourceType:"module",globals:{...e.browser,...e.node}},rules:{semi:["error","always"],"no-unused-vars":["warn"],"no-undef":"error",eqeqeq:["error","always"],curly:"error","no-console":"off"}},r.configs.recommended];
